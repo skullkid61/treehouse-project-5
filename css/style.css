@@ -4,6 +4,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-img {
+.thumbnail {
   padding: 10px;
 }
