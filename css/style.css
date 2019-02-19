@@ -57,10 +57,6 @@ body {
   padding-top: 50px;
 }
 
-.lb-data .lb-close {
-  display: none;
-}
-
 .lb-data .lb-caption {
   font-size: 1em;
   line-height: 1.7;
