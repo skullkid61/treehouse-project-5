@@ -82,9 +82,15 @@ body {
     width: 260px;
   }
 }
-@media(min-width: 1040px) {
+@media(min-width: 1000px) {
   .lb-nav {
-    width: 130%;
-    left: -15%;
+    width: 120%;
+    left: -10%;
+  }
+}
+@media(min-width: 1130px) {
+  .lb-nav {
+    width: 140%;
+    left: -20%;
   }
 }
