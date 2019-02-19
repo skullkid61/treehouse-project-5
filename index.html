@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Photo Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
@@ -15,7 +14,7 @@
     </header>
     <div class="container">
       <div class="search">
-        <input id="photo-search" type="search" placeholder="Search">
+        <input id="myInput" type="text" placeholder="Search">
       </div>
       <div class="collection">
         <a href="photos/01.jpg" data-lightbox="photos" data-title="Hay Bales<br/>
@@ -38,7 +37,7 @@
         The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
           <img class="thumbnail" src="photos/thumbnails/05.jpg" />
         </a>
-        <a href="photos/06.jpg" data-lightbox="Faphotosll" data-title="Fall<br/>
+        <a href="photos/06.jpg" data-lightbox="photos" data-title="Fall<br/>
         Fall is coming, I love when the leaves on the trees start to change color.">
           <img class="thumbnail" src="photos/thumbnails/06.jpg" />
         </a>
@@ -79,5 +78,6 @@
         'positionFromTop' : 150
       })
     </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
