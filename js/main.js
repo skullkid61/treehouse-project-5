@@ -1,6 +1,6 @@
 $('#myInput').on('keyup', function() {
     var searchVal = $(this).val().toLowerCase();
-    var filterItems = $('[data-lightbox="photos"]');
+    var filterItems = $('[data-lightbox]');
 
     for (var i = 0; i < filterItems.length; i++) {
         var caption = $(filterItems[i]).attr("data-title").toLowerCase();
