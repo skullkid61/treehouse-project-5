@@ -4,7 +4,7 @@ $('#myInput').on('keyup', function() {
 
     for (var i = 0; i < filterItems.length; i++) {
         var caption = $(filterItems[i]).attr("data-title").toLowerCase();
-        var thumbnail = $('.thumbnail')
+        var thumbnail = $('.thumbnail');
         if (caption.indexOf(searchVal) > -1) {
             thumbnail[i].style.display = "";
         } else {
